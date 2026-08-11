@@ -1,15 +1,27 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Android-specific
+android-app/.gradle/
+android-app/local.properties
+android-app/*/build/
+android-app/.idea/caches
+android-app/.idea/libraries
+android-app/.idea/modules.xml
+android-app/.idea/workspace.xml
+android-app/.idea/navEditor.xml
+android-app/.idea/assetWizardSettings.xml
+android-app/.externalNativeBuild
+android-app/.cxx
+
+# Windows-specific (Common Visual Studio / .NET)
+windows-app/.vs/
+windows-app/*/bin/
+windows-app/*/obj/
+windows-app/*.user
+windows-app/*.suo
+windows-app/*.cache
+
+# General
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+build/
+captures/
 local.properties
+*.iml
