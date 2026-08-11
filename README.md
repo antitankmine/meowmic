@@ -2,6 +2,10 @@
 
 MeowMic is a high-performance, low-latency Android application that streams live microphone audio over UDP to a receiver (e.g., a Windows WPF application). It is designed for minimal delay and high reliability.
 
+# STILL A WORK IN PROGRESS!!!
+Future features are incoming, not so sure when but i will update this repository when i can.
+Encryption is coming soon!!!
+
 ## Features
 
 *   **Low Latency Audio**: 10ms frame sizes at 48kHz for sub-20ms target latency.
