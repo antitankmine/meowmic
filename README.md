@@ -26,6 +26,11 @@ Encryption is coming soon!!!
 
 ## Installation & Setup
 
+# Method 1: Grab from the releases build of both windows and android versions (coming soon xd)
+
+
+# Method 2: Build it yourself
+
 1.  **Build**: Clone the repository and build the project in Android Studio.
 2.  **Permissions**: The app requires `RECORD_AUDIO`, `INTERNET`, `POST_NOTIFICATIONS`, and `WAKE_LOCK` permissions.
 3.  **Receiver**: Point the app to the IP address and UDP port of your receiver application.
